@@ -9,7 +9,6 @@ def dfs(graph, start_code, target_node):
             visited.append(current_node)
 
             # Check if target node is found
-
             if current_node == target_node:
                 print(f"\nTarget node '{target_node}' found!")
                 return visited
@@ -35,30 +34,26 @@ num_edges = int(input("\nHow many edges (connections) does your graph have : "))
 print("\nEnter each edge separated by a space (e.g., A B) : ")
 
 for i in range(num_edges):
-
+    
     # Read the edge and split it into two variables
-
     u, v = input(f"Edge {i+1} : ").split()
 
     # Initialize the lists if the nodes don't exist yet
-
     if u not in student_graph:
         student_graph[u] = []
-
     if v not in student_graph:
         student_graph[v] = []
 
-    # Add the connection (Undirected graph)
 
+    # Add the connection (Undirected graph)
     student_graph[u].append(v)
     student_graph[v].append(u)
 
 # Get the starting point
-
 start = input("\nEnter the starting node for DFS : ")
 
-# Get the target node
 
+# Get the target node
 target = input("Enter the target node : ")
 
 print(f"\nYour graph dictionary : {student_graph}")
