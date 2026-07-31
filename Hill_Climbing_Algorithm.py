@@ -3,8 +3,8 @@
 def objective_function(x):
     return -(x**2) + 10  # Example function
 
-
 # Hill climbing function
+
 def hill_climbing(start, step_size, max_iterations):
     current = start
     current_value = objective_function(current)
@@ -17,6 +17,7 @@ def hill_climbing(start, step_size, max_iterations):
         right_value = objective_function(right)
 
         # Move to the better neighbour
+
         if left_value > current_value:
             current = left
             current_value = left_value
@@ -28,11 +29,11 @@ def hill_climbing(start, step_size, max_iterations):
     return current, current_value
 
 
-# main program
+# Main program
+
 start = float(input("Enter the starting value: "))
 step_size = float(input("Enter the step size: "))
 max_iterations = int(input("Enter maximum iterations: "))
-
 best_position, best_value = hill_climbing(start, step_size, max_iterations)
 
 print("\nBest position found: ", best_position)
