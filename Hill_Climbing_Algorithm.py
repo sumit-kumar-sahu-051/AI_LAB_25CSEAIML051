@@ -1,10 +1,9 @@
 # Objective function
-
 def objective_function(x):
     return -(x**2) + 10  # Example function
 
-# Hill climbing function
 
+# Hill climbing function
 def hill_climbing(start, step_size, max_iterations):
     current = start
     current_value = objective_function(current)
@@ -12,12 +11,11 @@ def hill_climbing(start, step_size, max_iterations):
     for i in range(max_iterations):
         left = current - step_size
         right = current + step_size
-
         left_value = objective_function(left)
         right_value = objective_function(right)
 
-        # Move to the better neighbour
 
+        # Move to the better neighbour
         if left_value > current_value:
             current = left
             current_value = left_value
@@ -30,7 +28,6 @@ def hill_climbing(start, step_size, max_iterations):
 
 
 # Main program
-
 start = float(input("Enter the starting value: "))
 step_size = float(input("Enter the step size: "))
 max_iterations = int(input("Enter maximum iterations: "))
