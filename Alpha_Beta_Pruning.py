@@ -35,4 +35,4 @@ else:
     alpha = -math.inf
     beta = math.inf
     result = alpha_beta_pruning(0, 0, True, values, alpha, beta, height)
-    print("The optimal value is:", result)
+    print("The optimal value is: ", result)
