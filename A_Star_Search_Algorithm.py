@@ -1,7 +1,7 @@
 # 1. Take heuristic values for each node
 def get_user_inputs():
     heuristic = {}
-    num_nodes = int(input("Enter total number of nodes: "))
+    num_nodes = int(input("Enter total number of nodes: ")) 
     print("\nEnter Heuristic values h(n) for each node: ")
     for i in range(num_nodes):
         node = input("   Node name: ").strip().upper()
