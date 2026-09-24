@@ -1,3 +1,5 @@
+# Depth First Search (DFS) Algorithm Implementation
+
 def dfs(graph, start_code, target_node):
     visited = []
     stack = [start_code]
