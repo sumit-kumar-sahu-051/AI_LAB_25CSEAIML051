@@ -1,4 +1,4 @@
-# A Star Search Algorithm Implementation in Python
+# A Star Search Algorithm Implementation 
 
 def get_user_inputs():
     # 1. Take heuristic values for each node
