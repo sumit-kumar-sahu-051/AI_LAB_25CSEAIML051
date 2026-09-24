@@ -1,3 +1,5 @@
+# Hill Climbing Algorithm Implementation
+
 # Objective function
 def objective_function(x):
     return -(x**2) + 10  # Example function
