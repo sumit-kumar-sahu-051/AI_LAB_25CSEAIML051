@@ -2,14 +2,14 @@
 
 import math
 def alpha_beta_pruning(depth, nodeIndex, maximizingPlayer, values, alpha, beta, height):
-    # Base case: leaf node
+    # Base case: Leaf node reached
     if depth == height:
         return values[nodeIndex]
     if maximizingPlayer:
         best = -math.inf
         for i in range(0, 2):
-            val = alpha_beta_pruning(depth + 1, nodeIndex * 2 + i, False, values, alpha, beta, height)
-            best = max(best, val)
+            value = alpha_beta_pruning(depth + 1, nodeIndex * 2 + i, False, values, alpha, beta, height)
+            best = max(best, value)
             alpha = max(alpha, best)
             # Beta cut-off
             if beta <= alpha:
@@ -18,8 +18,8 @@ def alpha_beta_pruning(depth, nodeIndex, maximizingPlayer, values, alpha, beta, 
     else:
         best = math.inf 
         for i in range(0, 2):
-            val = alpha_beta_pruning(depth + 1, nodeIndex * 2 + i, True, values, alpha, beta, height)
-            best = min(best, val)
+            value = alpha_beta_pruning(depth + 1, nodeIndex * 2 + i, True, values, alpha, beta, height)
+            best = min(best, value)
             beta = min(beta, best)
             # Alpha cut-off
             if beta <= alpha:
