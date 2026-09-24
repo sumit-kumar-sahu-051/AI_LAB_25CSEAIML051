@@ -1,3 +1,5 @@
+# Breadth First Search (BFS) Algorithm Implementation
+
 def bfs(graph, start_code, target_node):
     visited = []
     queue = [start_code]
