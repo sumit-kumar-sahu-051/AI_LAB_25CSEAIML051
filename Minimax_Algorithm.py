@@ -1,4 +1,5 @@
-# Minimax Algorithm
+# Minimax Algorithm Implementation
+
 def minimax(depth, nodeIndex, isMax, scores, height):
     # Base case: leaf node reached
     if depth == height:
