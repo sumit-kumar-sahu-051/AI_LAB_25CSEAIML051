@@ -36,7 +36,6 @@ def water_jug(cap1, cap2, target_state):
 
     return None
 
-
 # Solve for Jug1 capacity = 4L, Jug2 capacity = 3L, and target state = (2, 3)
 target_state = (2, 3)
 solution = water_jug(4, 3, target_state)
