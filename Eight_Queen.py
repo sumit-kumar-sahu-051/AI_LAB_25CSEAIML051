@@ -41,7 +41,6 @@ def solve_8queens(board, row):
             board[row][col] = "."  # Backtrack
     return False
 
-
 # Initialize 8x8 chessboard
 board = [["." for _ in range(8)] for _ in range(8)]
 
