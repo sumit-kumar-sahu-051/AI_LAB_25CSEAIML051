@@ -26,7 +26,6 @@ def is_safe(board, row, col):
 
     return True
 
-
 def solve_8queens(board, row):
     n = len(board)
 
