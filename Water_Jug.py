@@ -1,4 +1,4 @@
-# Water Jug Problem
+# Water Jug Problem Solver using BFS
 
 from collections import deque
 
