@@ -1,4 +1,4 @@
-# Eight Queen Problem
+# Eight Queen Problem Solver using Backtracking
 
 def is_safe(board, row, col):
     n = len(board)
