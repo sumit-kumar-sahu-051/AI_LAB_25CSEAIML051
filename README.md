@@ -1,6 +1,13 @@
 # AI Lab Experiments
 
-This repository contains Python programs and outputs for Artificial Intelligence Laboratory experiments.
+## About
+This repository contains Python implementations and execution outputs for Artificial Intelligence Laboratory experiments covering:
+- **Uninformed Search:** Breadth First Search (BFS), Depth First Search (DFS), Depth Limited Search (DLS), Uniform Cost Search (UCS)
+- **Informed & Local Search:** A* Search Algorithm, Hill Climbing Algorithm
+- **State-Space & Constraint Satisfaction:** Water Jug Problem, 8-Queens Problem, Traveling Salesman Problem (TSP)
+- **Planning & Game Playing:** Block World Problem, Tic-Tac-Toe, Minimax Algorithm, Alpha-Beta Pruning
+
+All experiments include source code and verified terminal output logs.
 
 ## List of Experiments
 
