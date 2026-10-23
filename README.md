@@ -1,10 +1,17 @@
 # Artificial Intelligence Laboratory (AI Lab) 🤖
 
-**Student Name:** Sumit Kumar Sahu  
-**Roll / Registration Number:** `25CSEAIML051`  
-**Branch / Specialization:** Computer Science & Engineering (AI & ML)  
-**Repository:** [AI_LAB_25CSEAIML051](https://github.com/sumit-kumar-sahu-051/AI_LAB_25CSEAIML051)  
-
+### 🎓 Student Profile & Academic Details
+| Field | Details |
+| :--- | :--- |
+| **Student Name** | Sumit Kumar Sahu |
+| **Course** | B.Tech |
+| **Branch** | Computer Science & Engineering (AI & ML) — CSEAIML |
+| **Roll Number** | 25CSEAIML051 |
+| **Registration Number** | 25UG010313 |
+| **Semester** | 3rd Semester |
+| **Section** | Section A |
+| **Academic Year** | 2026–27 |
+| **Repository Link** | [AI_LAB_25CSEAIML051](https://github.com/sumit-kumar-sahu-051/AI_LAB_25CSEAIML051) |
 ---
 
 ## 📌 Repository Overview
@@ -521,7 +528,13 @@ This repository contains all completed laboratory experiments for the **Artifici
 
 ---
 
-## 👨‍💻 Author
-**Sumit Kumar Sahu**  
-- **Roll Number:** `25CSEAIML051`  
-- **GitHub:** [@sumit-kumar-sahu-051](https://github.com/sumit-kumar-sahu-051)  
+## 👨‍💻 Author & Academic Details
+- **Student Name:** Sumit Kumar Sahu
+- **Course:** B.Tech
+- **Branch:** CSEAIML
+- **Roll Number:** 25CSEAIML051
+- **Registration Number:** 25UG010313
+- **Semester & Section:** 3rd Semester, Section A
+- **Academic Year:** 2026–27
+- **GitHub Profile:** [@sumit-kumar-sahu-051](https://github.com/sumit-kumar-sahu-051)
+- **Repository:** [https://github.com/sumit-kumar-sahu-051/AI_LAB_25CSEAIML051.git](https://github.com/sumit-kumar-sahu-051/AI_LAB_25CSEAIML051.git)
