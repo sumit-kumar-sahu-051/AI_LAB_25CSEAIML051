@@ -19,11 +19,3 @@ This repository contains Python programs and outputs for Artificial Intelligence
 | 11 | Block World Problem | [Block_World.py](Block_World.py) | [Output](outputs/11_Block_World_output.txt) |
 | 12 | Minimax Algorithm | [Minimax_Algorithm.py](Minimax_Algorithm.py) | [Output](outputs/12_Minimax_output.txt) |
 | 13 | Alpha-Beta Pruning | [Alpha_Beta_Pruning.py](Alpha_Beta_Pruning.py) | [Output](outputs/13_Alpha_Beta_Pruning_output.txt) |
-
-## How to Run
-
-Run any experiment using Python:
-
-```bash
-python BFS.py
-```
