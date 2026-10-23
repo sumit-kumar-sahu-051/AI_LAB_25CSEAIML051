@@ -26,3 +26,18 @@ All experiments include source code and verified terminal output logs.
 | 11 | Block World Problem | [Block_World.py](Block_World.py) | [Output](outputs/11_Block_World_output.txt) |
 | 12 | Minimax Algorithm | [Minimax_Algorithm.py](Minimax_Algorithm.py) | [Output](outputs/12_Minimax_output.txt) |
 | 13 | Alpha-Beta Pruning | [Alpha_Beta_Pruning.py](Alpha_Beta_Pruning.py) | [Output](outputs/13_Alpha_Beta_Pruning_output.txt) |
+
+## How to Run
+
+Clone the repository and run any experiment using Python 3:
+
+```bash
+# Clone the repository
+git clone https://github.com/sumit-kumar-sahu-051/AI_LAB_25CSEAIML051.git
+
+# Navigate into the folder
+cd AI_LAB_25CSEAIML051
+
+# Run an experiment (example: BFS)
+python BFS.py
+```
